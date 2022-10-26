@@ -7,7 +7,7 @@
   <groupId>Hostel</groupId>
   <artifactId>Roomproject</artifactId>
   <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.5</version>
   
   <name>Roomprojectwar Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
@@ -68,6 +68,10 @@
         <plugin>
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
+        </plugin>
+		<plugin>
+           <artifactId>maven-war-plugin</artifactId>
+           <version>3.0.0</version>
         </plugin>
       </plugins>
     </pluginManagement>
