@@ -7,7 +7,7 @@
   <groupId>Hostel</groupId>
   <artifactId>Roomproject</artifactId>
   <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.5</version>
   
   <name>Roomprojectwar Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
