@@ -4,7 +4,7 @@ node{
    def tomcatBin = 'C:\\apache-tomcat-9.0.68\\bin'
    def tomcatStatus = ''
    stage('SCM Checkout'){
-     git 'https://github.com/Ravitejano1/Bookproject.git'
+     git 'https://github.com/Ravitejano1/Roomproject.git'
    }
    stage('Compile-Package-create-war-file'){
       // Get maven home path
@@ -24,7 +24,7 @@ node{
 '''
    }*/
    stage('Deploy to Tomcat'){
-     bat "copy target\\Bookproject.war \"${tomcatWeb}\\Bookproject.war\""
+     bat "copy target\\Roomproject.war \"${tomcatWeb}\\Roomproject.war\""
    }
       stage ('Start Tomcat Server') {
          sleep(time:5,unit:"SECONDS") 
